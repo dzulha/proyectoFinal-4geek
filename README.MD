@@ -30,26 +30,8 @@
 ### **APIs y Servicios Externos**
 * **Mapbox:** Para integrar mapas interactivos en nuestra aplicación (si es necesario).
 
----
 
-## Primeros Pasos para Empezar
-
-Instrucciones básicas para que cualquier miembro del equipo (o un futuro desarrollador) pueda instalar y correr el proyecto en su máquina local.
-
-### **Requisitos Previos**
-- Node.js y npm
-- Python y pip
-- Git
-
-### **Instalación**
-
-1.  **Clona el repositorio:**
-    ```sh
-    git clone [https://github.com/tu-usuario/tu-proyecto.git](https://github.com/tu-usuario/tu-proyecto.git)
-    cd tu-proyecto
-    ```
-
-2.  **Configura el Backend:**
+  **Configura el Backend:**
     ```sh
     cd backend
     # Crea y activa un entorno virtual
