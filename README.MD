@@ -42,12 +42,10 @@
     ```
 
 
-
 tu-proyecto-final/
 ├── .gitignore
 ├── README.md
-|
-├── frontend/         # Tu aplicación de React con Vite
+├── frontend/           # Tu aplicación de React con Vite
 │   ├── public/
 │   ├── src/
 │   │   ├── api/          # Lógica para conectar con el backend (Fetch)
@@ -58,7 +56,7 @@ tu-proyecto-final/
 │   ├── index.html
 │   └── package.json
 │
-└── backend/          # Tu API de Flask
+└── backend/            # Tu API de Flask
     ├── migrations/     # Archivos de migración de la base de datos
     ├── src/
     │   ├── api/          # Lógica de los endpoints de la API
@@ -67,5 +65,5 @@ tu-proyecto-final/
     │   ├── admin.py      # Configuración del panel de administrador (si aplica)
     │   └── utils.py      # Funciones de utilidad
     ├── .env            # Variables de entorno (claves de API, conexión a DB)
-    ├── requirements.txt # Lista de dependencias de Python
+    ├── requirements.txt# Lista de dependencias de Python
     └── Pipfile         # Opcional, para gestión con pipenv
